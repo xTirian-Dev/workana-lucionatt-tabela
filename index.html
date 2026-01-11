@@ -2,26 +2,31 @@
 <html lang="pt-br">
 <head>
 <meta charset="UTF-8">
-<title>Tabela – Riscos Ocupacionais do Anestesiologista</title>
-
+<title>Tabela – Riscos Ocupacionais</title>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<table>
-<thead>
-<tr>
-    <th>Área de risco</th>
-    <th>Aplicação / Tecnologia</th>
-    <th>Indicadores monitorados</th>
-    <th>Tipo de risco</th>
-    <th>Resultados e impactos</th>
-    <th>Maturidade, barreiras e integração</th>
-</tr>
-</thead>
+<div class="container">
 
-<tbody id="tabela-corpo"></tbody>
-</table>
+    <div class="page" id="area-impressao">
+
+        <table>
+            <thead>
+                <tr id="header-row">
+                    <th>Campo / Área</th>
+                </tr>
+            </thead>
+            <tbody id="tabela-corpo"></tbody>
+        </table>
+
+    </div>
+
+    <div class="controls">
+        <button onclick="window.print()">🖨 Imprimir</button>
+    </div>
+
+</div>
 
 <script src="script.js"></script>
 </body>

@@ -1,50 +1,34 @@
 [
   {
-    "area": "Exposição a gases anestésicos",
-    "aplicacao": "Monitoramento contínuo e predição de vazamentos com sensores ambientais e IA.",
-    "indicadores": "Concentração ambiental e tempo de exposição cumulativa.",
+    "area": "Gases",
+    "aplicacao": "Monitoramento ambiental com sensores e IA.",
+    "indicadores": "Concentração e tempo de exposição.",
     "tipo": "Físico e neurológico",
-    "impactos": "Detecção precoce, redução de riscos respiratórios e neurológicos; ambiente assistencial mais seguro.",
-    "maturidade": "Uso clínico limitado; custos de instalação; risco ético baixo; escalabilidade média; integração com engenharia clínica e SST."
+    "impactos": "Redução de riscos respiratórios e neurológicos.",
+    "maturidade": "Uso clínico limitado; custos; risco ético baixo."
   },
   {
-    "area": "Fadiga e estresse",
-    "aplicacao": "Dispositivos vestíveis biométricos e algoritmos preditivos.",
-    "indicadores": "Variabilidade cardíaca, duração dos turnos, sono e carga cognitiva.",
-    "tipo": "Cognitivo, emocional e organizacional",
-    "impactos": "Redução do burnout e de erros críticos.",
-    "maturidade": "Piloto; barreiras culturais; risco ético moderado; alta escalabilidade; integração com gestão de escalas."
+    "area": "Fadiga",
+    "aplicacao": "Wearables e algoritmos preditivos.",
+    "indicadores": "Sono, turnos e variabilidade cardíaca.",
+    "tipo": "Cognitivo e emocional",
+    "impactos": "Redução de burnout e erros críticos.",
+    "maturidade": "Piloto; risco ético moderado; alta escalabilidade."
   },
   {
     "area": "Ergonomia",
-    "aplicacao": "Visão computacional, sensores posturais e vestíveis.",
-    "indicadores": "Postura estática, ângulos articulares e carga musculoesquelética.",
+    "aplicacao": "Visão computacional e sensores posturais.",
+    "indicadores": "Postura e carga musculoesquelética.",
     "tipo": "Físico",
-    "impactos": "Redução de LER/DORT e manutenção do desempenho técnico.",
-    "maturidade": "Piloto; aceitação no campo estéril; risco ético baixo a moderado; integração limitada."
+    "impactos": "Redução de LER/DORT.",
+    "maturidade": "Piloto; integração limitada."
   },
   {
-    "area": "Radiação ionizante",
-    "aplicacao": "Dosímetros digitais e softwares de rastreamento de dose.",
-    "indicadores": "Dose acumulada e tempo de exposição.",
+    "area": "Radiação",
+    "aplicacao": "Dosímetros digitais.",
+    "indicadores": "Dose acumulada.",
     "tipo": "Físico",
-    "impactos": "Minimização da exposição e maior proteção radiológica.",
-    "maturidade": "Validada; custos e treinamento; risco ético baixo; alta integração."
-  },
-  {
-    "area": "Infecções biológicas",
-    "aplicacao": "RTLS e modelos epidemiológicos preditivos.",
-    "indicadores": "Tempo de exposição e histórico de contatos.",
-    "tipo": "Biológico e organizacional",
-    "impactos": "Redução de infecções relacionadas à assistência.",
-    "maturidade": "Piloto; privacidade elevada; escalabilidade média a alta; integração com CCIH."
-  },
-  {
-    "area": "Violência ocupacional",
-    "aplicacao": "Análise de vídeo e reconhecimento emocional.",
-    "indicadores": "Padrões de voz, movimento e comportamento.",
-    "tipo": "Psicológico e físico",
-    "impactos": "Aumento da segurança da equipe e redução de eventos adversos.",
-    "maturidade": "Experimental; risco ético muito alto; integração limitada."
+    "impactos": "Maior proteção radiológica.",
+    "maturidade": "Validada; alta integração."
   }
 ]
