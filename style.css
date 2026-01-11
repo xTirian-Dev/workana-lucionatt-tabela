@@ -1,3 +1,9 @@
+@page {
+  size: A4;
+  margin: 0;
+}
+
+
 body {
     background: #bfbfbf;
     font-family: Arial, sans-serif;
@@ -60,12 +66,9 @@ button {
 @media print {
 
   body {
-    background: white;
     margin: 0;
-  }
-
-  .controls {
-    display: none;
+    padding: 0;
+    background: white;
   }
 
   .page {
@@ -74,6 +77,12 @@ button {
     padding: 1.5cm;
     box-shadow: none;
     overflow: hidden;
+    transform: scale(0.97);
+    transform-origin: top left;
+  }
+
+  .controls {
+    display: none;
   }
 
   table {
@@ -89,4 +98,3 @@ button {
   }
 
 }
-
