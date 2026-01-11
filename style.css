@@ -58,22 +58,35 @@ button {
 
 /* ===== IMPRESSÃO ===== */
 @media print {
-    body {
-        background: white;
-    }
 
-    .controls {
-        display: none;
-    }
+  body {
+    background: white;
+    margin: 0;
+  }
 
-    .page {
-        box-shadow: none;
-        padding: 0;
-        width: 100%;
-        min-height: auto;
-    }
+  .controls {
+    display: none;
+  }
 
-    table {
-        font-size: 11px;
-    }
+  .page {
+    width: 794px;
+    height: 1123px;
+    padding: 1.5cm;
+    box-shadow: none;
+    overflow: hidden;
+  }
+
+  table {
+    font-size: 9.2px;
+  }
+
+  th, td {
+    padding: 4px;
+  }
+
+  tr {
+    page-break-inside: avoid;
+  }
+
 }
+
